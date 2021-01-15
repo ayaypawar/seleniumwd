@@ -12,8 +12,8 @@ public class Dummy2
 	public static void main(String[] args) throws Exception 
 	{
 		// Get OS properties(System properties) info//12-12-2020
-		System.out.println(System.getProperty("user.dir"));//working directory
-		System.out.println(System.getProperty("os.name"));//operating system name
+		System.out.println(System.getProperty("user.dir"));    //working directory
+		System.out.println(System.getProperty("os.name"));     //operating system name
 		//2.Get Environment variable info at system or user
 		System.out.println(System.getenv("JAVA_HOME"));//Get value of an environment variable
 		ProcessBuilder pb=new ProcessBuilder();
